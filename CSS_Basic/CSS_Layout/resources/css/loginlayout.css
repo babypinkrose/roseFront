@@ -1,0 +1,63 @@
+div {
+    /* border : 1px solid black; */
+    box-sizing: border-box;
+}
+
+#header1 {
+    /* border : 1px solid black; */
+    /* background-color: aquamarine; */
+    height: 100px;
+    width: 250px;
+}
+    #main1 {
+        /* border : 1px solid black; */
+        /* background-color: bisque; */
+        height: 75%;
+        width: 100%;
+        float: left;
+        }
+    #login {
+        /* background-color: coral; */
+        height: 100%;
+        width: 70%;
+        float: left;
+    }
+        #user-id {
+            /* border : 1px solid black; */
+            /* background-color: blue; */
+            height: 50%;
+            width: 100%;
+            #id-field {
+                height: 100%;
+            }
+        }
+        #user-pw {
+            /* border : 1px solid black; */
+            /* background-color: red; */
+            height: 50%;
+            width: 100%;
+        }
+        #pw-field {
+            height: 100%;
+        }
+    #button{
+        /* border : 1px solid black; */
+        /* background-color: blueviolet; */
+        height: 100%;
+        width: 30%;
+        float: right;
+        text-align: center;
+            #loginbutton {
+                margin-top: 3px;
+                height: 90%;
+                width: 90%;
+            }
+        }
+    #footer1 {
+        /* border : 1px solid black; */
+        /* background-color: aquamarine; */
+        height: 25%;
+        width: 100%;
+        float: left;
+        text-align: center;
+    }

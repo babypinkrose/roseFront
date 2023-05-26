@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>네비게이터 레이아웃</title>
+        <link rel="stylesheet" href="./resources/css/navigatorlayer.css">
+        <link rel="stylesheet" href="./resources/css/reset.css">
+        <link rel="stylesheet" href="./resources/css/loginlayout.css">
+    </head>
+    <body>
+        <h1>문제6 : 로그인 layout 만들어보기</h1>
+        <div id="container">
+            <div id="header">
+                <div id="header-layer1"></div>
+                <div id="header-layer2"></div>
+                <div id="header-layer3"></div>
+            </div>
+            <div id="navigator"></div>
+            <div id="main">
+                <div id="main-layer1"></div>
+                <div id="main-layer2"></div>
+                <div id="main-layer3">
+                    <div id="header1">
+                        <div id="main1">
+                            <div id="login">
+                                <div id="user-id">
+                                    <input type="text" id="id-field" placeholder="ID를 입력하세요." required>
+                                </div>
+                                <div id="user-pw">
+                                    <input type="password" id="pw-field" placeholder="PW를 입력하세요." required>
+                                </div>
+                            </div>
+                            <div id="button">
+                                <input type="submit" id=loginbutton value="로그인">
+                            </div>
+                        </div>
+            
+                        <div id="footer1">
+                            <a href="http://naver.com">회원가입</a>
+                            <a href="http://naver.com">ID/PW 찾기</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

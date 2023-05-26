@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>연습문제 1</title>
+        <style>
+            body {
+                text-align: center;
+                font-size: 1.2em;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>4의 배수일까 아닐까</h2>
+        <script>
+            // parseInt() 괄호 안을 숫자로 바꿔줌
+            var userNumber = parseInt(prompt("숫자를 입력 해 주세요"))
+//          if문 필요
+//          document.write()
+//          null 체크
+        if(userNumber !== null && userNumber !== 0) {
+            if(userNumber % 4 == 0) {
+                // alert();
+                // console.log();
+                document.write(userNumber + "는(은) 4의 배수 입니다.")
+            }
+            else {
+                document.write(userNumber + "는(은) 4의 배수가 아닙니다.")
+            }
+          
+        }
+        else {
+                document.write("취소하셨습니다.")
+            }
+        </script>
+    </body>
+</html>

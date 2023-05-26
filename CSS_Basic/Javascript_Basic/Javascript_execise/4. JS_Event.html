@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS 이벤트</title>
+    </head>
+    <body>
+        <h1>이벤트</h1>
+        <p>
+            이벤트 : 웹 페이지에서 어떠한 행위(사용자의 행동)가 발생한 것을 이벤트라 함 <br>
+            이벤트 활용 : 이벤트 속성과 이벤트핸들러(함수)를 연동하여 이벤트 발생시
+            특정기능을 하도록 함.
+        </p>
+        <h3>이벤트 설정방법</h3>
+        <p>
+            1. 고전 이벤트 모델 <br>
+            2. 인라인 이벤트 모델 <br>
+            3. 표준 이벤트 모델 <br>
+        </p>
+        <h3>인라인 이벤트 모델</h3>
+        <p>
+            요소 내부에 이벤트를 작성하는 방법 <br>
+            script 태그에 있는 함수를 호출하는 방식 <br>
+        </p>
+        <button onclick="inlineEvent();">인라인 이벤트 모델</button>
+        <script>
+            
+            function inlineEvent() {
+                alert("인라인 이벤트 동작!");
+            }
+        </script>
+    </body>
+</html>

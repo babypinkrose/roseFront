@@ -1,0 +1,52 @@
+    #header {
+        background-color: antiquewhite;
+        height: 100px;
+    }
+
+        #header-layer1 {
+            background-color: blue;
+            height: 100%;
+            width: 20%;
+            float: left;
+        }
+        #header-layer2 {
+            background-color: coral;
+            height: 100%;
+            width: 65%;
+            float: left;
+        }
+        #header-layer3 {
+            background-color: darkgreen;
+            height: 100%;
+            width: 15%;
+            float: left;
+        }
+
+    
+    #main {
+        background-color: aqua;
+        height: 500px;
+    }
+        #main-layer1 {
+            background-color: brown;
+            height: 100%;
+            width: 15%;
+            float: left;
+        }
+        #main-layer2 {
+            background-color: darkkhaki;
+            height: 100%;
+            width: 65%;
+            float: left;
+        }
+        #main-layer3 {
+            background-color: deepskyblue;
+            height: 100%;
+            width: 20%;
+            float: left;
+        }
+
+    #footer {
+        background-color: blueviolet;
+        height: 100px;
+    }
